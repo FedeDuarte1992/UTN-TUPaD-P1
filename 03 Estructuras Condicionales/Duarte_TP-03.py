@@ -4,9 +4,9 @@
 edad=  int(input("ingrese su edad: "))
 MAYOR_DE_EDAD= int(18)
 if edad >= MAYOR_DE_EDAD :
-    print("Es mayor de edad")
+    print("Es mayor de edad ")
 else :
-    print ("No es mayor de edad")
+    print ("No es mayor de edad ")
 print ("Gracias")
 
 """2) Escribir un programa que solicite su nota al usuario. Si la nota es mayor o igual a 6, deberá mostrar por pantalla un mensaje que diga “Aprobado”; en caso contrario deberá mostrar el mensaje “Desaprobado”."""
