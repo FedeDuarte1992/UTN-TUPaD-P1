@@ -1,0 +1,65 @@
+[33mcommit 761e2bca6e2b861dcddfe9b173c3f910d5040ebb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mnueva-rama[m[33m, [m[1;31morigin/nueva-rama[m[33m)[m
+Author: FedeDuarte1992 <124315674+FedeDuarte1992@users.noreply.github.com>
+Date:   Tue Apr 8 14:15:05 2025 -0300
+
+    Resuelto conflicto con Duarte_TP-04.py
+
+[1mdiff --git a/04 Estructuras Repetitivas/Duarte_TP-04.py b/04 Estructuras Repetitivas/Duarte_TP-04.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b30af85[m
+[1m--- /dev/null[m
+[1m+++ b/04 Estructuras Repetitivas/Duarte_TP-04.py[m	
+[36m@@ -0,0 +1,52 @@[m
+[32m+[m[32m"""1) Crea un programa que imprima en pantalla todos los números enteros desde 0 hasta 100[m
+[32m+[m[32m(incluyendo ambos extremos), en orden creciente, mostrando un número por línea.[m
+[32m+[m
+[32m+[m[32mnum=0[m[41m [m
+[32m+[m[32mfor num in range(101 ) :[m
+[32m+[m
+[32m+[m[32m    if num % 2 == 0 :[m
+[32m+[m[32m        print (num)"""[m
+[32m+[m[41m        [m
+[32m+[m[32m"""2) Desarrolla un programa que solicite al usuario un número entero y determine la cantidad de[m
+[32m+[m[32mdígitos que contiene.[m
+[32m+[m
+[32m+[m[32mnumero_entero= int(input ("ingrese un numero entero: "))[m
+[32m+[m[32mif numero_entero == 0 :[m
+[32m+[m[32m    print("el numero tiene un solo dígito  ")[m[41m [m
+[32m+[m[32melse:[m
+[32m+[m[32m    contador = 0[m
+[32m+[m[32m    while numero_entero > 0 :[m
+[32m+[m[32m        numero_entero = numero_entero//10[m
+[32m+[m[32m        contador +=1[m
+[32m+[m[32m    print ("El numero tiene ", contador, "dígitos ")[m
+[32m+[m[32m"""[m
+[32m+[m
+[32m+[m[32m"""3) Escribe un programa que sume todos los números enteros comprendidos entre dos valores[m
+[32m+[m[32mdados por el usuario, excluyendo esos dos valores.[m
+[32m+[m
+[32m+[m[32masdasdasdasd"""[m
+[32m+[m
+[32m+[m[32m"""4) Elabora un programa que permita al usuario ingresar números enteros y los sume en[m
+[32m+[m[32msecuencia. El programa debe detenerse y mostrar el total acumulado cuando el usuario ingrese[m
+[32m+[m[32mun 0."""[m
+[32m+[m
+[32m+[m[32m"""5) Crea un juego en el que el usuario deba adivinar un número aleatorio entre 0 y 9. Al final, el[m
+[32m+[m[32mprograma debe mostrar cuántos intentos fueron necesarios para acertar el número."""[m
+[32m+[m
+[32m+[m[32m"""6) Desarrolla un programa que imprima en pantalla todos los números pares comprendidos[m
+[32m+[m[32mentre 0 y 100, en orden decreciente."""[m
+[32m+[m
+[32m+[m[32m"""7) Crea un programa que calcule la suma de todos los números comprendidos entre 0 y un[m
+[32m+[m[32mnúmero entero positivo indicado por el usuario."""[m
+[32m+[m
+[32m+[m[32m"""8) Escribe un programa que permita al usuario ingresar 100 números enteros. Luego, el[m
+[32m+[m[32mprograma debe indicar cuántos de estos números son pares, cuántos son impares, cuántos son[m
+[32m+[m[32mnegativos y cuántos son positivos. (Nota: para probar el programa puedes usar una cantidad[m
+[32m+[m[32mmenor, pero debe estar preparado para procesar 100 números con un solo cambio)."""[m
+[32m+[m
+[32m+[m[32m"""9) Elabora un programa que permita al usuario ingresar 100 números enteros y luego calcule la[m
+[32m+[m[32mmedia de esos valores. (Nota: puedes probar el programa con una cantidad menor, pero debe[m
+[32m+[m[32mpoder procesar 100 números cambiando solo un valor)."""[m
+[32m+[m
+[32m+[m[32m"""10) Escribe un programa que invierta el orden de los dígitos de un número ingresado por el[m
+[32m+[m[32musuario. Ejemplo: si el usuario ingresa 547, el programa debe mostrar 745."""[m
+\ No newline at end of file[m
