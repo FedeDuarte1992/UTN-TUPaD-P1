@@ -23,15 +23,36 @@ else:
 
 """3) Escribe un programa que sume todos los números enteros comprendidos entre dos valores
 dados por el usuario, excluyendo esos dos valores.
+num_min=int(input("Ingrese el numero entero de Menor tamaño: "))
+num_max=int(input("Ingrese el numero entero de Mayor tamaño: "))
+num=0
+contador=0
 
-asdasdasdasd"""
+for num in range(num_min+1,num_max):
+    contador += num
+    print(contador)
+"""
 
 """4) Elabora un programa que permita al usuario ingresar números enteros y los sume en
 secuencia. El programa debe detenerse y mostrar el total acumulado cuando el usuario ingrese
-un 0."""
+un 0.
+TERMINAR=0
+contador=0
 
-"""5) Crea un juego en el que el usuario deba adivinar un número aleatorio entre 0 y 9. Al final, el
-programa debe mostrar cuántos intentos fueron necesarios para acertar el número."""
+num= int(input("Ingrese un numero entero, para finalizar ingrese 0: "))
+while num != TERMINAR:
+    contador += num
+    print(f"la suma es: {contador}")
+    num=int(input("Ingrese otro numero: "))
+    
+print(f"Fin del programa, la suma total es {contador}")    
+    
+"""
+
+"""5) Crea un juego en el que el usuario deba adivinar un número aleatorio entre 0 y 9. Al final, el programa debe mostrar cuántos intentos fueron necesarios para acertar el número."""
+
+
+
 
 """6) Desarrolla un programa que imprima en pantalla todos los números pares comprendidos
 entre 0 y 100, en orden decreciente."""
