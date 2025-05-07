@@ -7,5 +7,25 @@
         "popleft",
         "TAMANIO",
         "vacia"
+    ],
+    "cSpell.ignoreWords": [
+        "Bienvenid",
+        "CALCULOS",
+        "CONVERSOR",
+        "Conversor",
+        "Octales",
+        "SECCION",
+        "conversor",
+        "digitos",
+        "eleccion",
+        "funcion",
+        "multiplicacion",
+        "numeros",
+        "octales",
+        "opcion",
+        "operacion",
+        "seccion",
+        "segun",
+        "tupla"
     ]
 }
